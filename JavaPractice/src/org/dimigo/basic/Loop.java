@@ -22,7 +22,17 @@ package org.dimigo.basic;
 public class Loop {
 
 	public static void main(String[] args) {
-		
+		int n, i;
+		for (i=1; i<=10; i++) {
+			for (n=1; n<=10; n++) {
+				if (i == n) {
+					System.out.print("*");
+				}
+				else {
+					System.out.print(n);
+				}
+			}
+			System.out.println("");
+		}
 	}
-
 }
