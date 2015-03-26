@@ -32,7 +32,7 @@ public class Loop {
 					System.out.print(n);
 				}
 			}
-			System.out.println("");
+			System.out.println("");  
 		}
 	}
 }
