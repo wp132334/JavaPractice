@@ -16,7 +16,7 @@ public class MelonChart {
 		printList(list);
 		
 		list.add(1, new Music("레옹", "이유갓지"));
-		
+			
 		System.out.println("-- << 2위 곡 추가 >> --");
 		printList(list);
 		
